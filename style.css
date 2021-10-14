@@ -189,6 +189,7 @@ body {
   padding: 5px;
 }
 .owner-banner {
+    height: 550px;
   background-color: black;
   background-position: top;
   background-image: url("dist/img/owners-center-banner.webp");
@@ -210,7 +211,7 @@ body {
 
 .icons {
   fill: #fff;
-  padding-top: 15%;
+  
 }
 @media only screen and (max-width: 767px) {
   .rectangle {

@@ -182,6 +182,9 @@ body {
   color: #1a1a1a !important;
 }
 .owner-title {
+  top:-200px;
+  left: 30%;
+  position: absolute;
   font-weight: 300;
   font-size: 56px;
   letter-spacing: 0.25px;
@@ -189,13 +192,14 @@ body {
   padding: 5px;
 }
 .owner-banner {
-    height: 550px;
+  position: relative;
+    height: 450px;
   background-color: black;
   background-position: top;
   background-image: url("dist/img/owners-center-banner.webp");
   width: 100%;
   background-repeat: no-repeat;
-  background-size: 100% 550px;
+  background-size: 100% 520px;
   font-family: "GothamMedium";
   margin-bottom: 100px;
 }
@@ -207,11 +211,14 @@ body {
 .owner-banner a {
   text-decoration: none;
   color: white;
+  font-weight: 900;
 }
 
 .icons {
   fill: #fff;
-  
+  position: relative;
+  right: 1200px;
+  padding-top: 20%;
 }
 @media only screen and (max-width: 767px) {
   .rectangle {
@@ -228,7 +235,9 @@ body {
     font-size: 12px;
   }
   .owner-title {
-    font-weight: 300;
+    position: relative;
+    left: 2%;
+    font-weight: 900;
     font-size: 36px;
     letter-spacing: 0.25px;
     color: white;
@@ -236,6 +245,8 @@ body {
   }
 
   .owner-banner {
+    height: auto;
+
     background-color: black;
     background-position: top;
     background-image: url("dist/img/owners-center-banner.webp");

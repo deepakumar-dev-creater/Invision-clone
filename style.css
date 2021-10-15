@@ -182,7 +182,7 @@ body {
   color: #1a1a1a !important;
 }
 .owner-title {
-  top:-200px;
+  top: -200px;
   left: 30%;
   position: absolute;
   font-weight: 300;
@@ -193,7 +193,7 @@ body {
 }
 .owner-banner {
   position: relative;
-    height: 450px;
+  height: 450px;
   background-color: black;
   background-position: top;
   background-image: url("dist/img/owners-center-banner.webp");
@@ -213,7 +213,10 @@ body {
   color: white;
   font-weight: 900;
 }
-
+.owner-banner a:hover {
+  color: white;
+  opacity: 0.5;
+}
 .icons {
   fill: #fff;
   position: relative;
@@ -256,7 +259,6 @@ body {
     overflow: hidden;
   }
   .owner-banner a {
-   
     letter-spacing: 0.25px;
     width: 50%;
     border: 1px solid white;

@@ -1,304 +1,298 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap");
 @font-face {
-  font-family: "GothamMedium";
-  src: url("dist/fonts/Gotham-Font/GothamLight.ttf");
+    font-family: "GothamMedium";
+    src: url("dist/fonts/Gotham-Font/GothamLight.ttf");
 }
 
 body {
-  margin: 0px;
-  padding: 0px;
-  font-family: "Source Sans Pro", sans-serif;
+    margin: 0px;
+    padding: 0px;
+    font-family: "Source Sans Pro", sans-serif;
 }
 
 .header-title {
-  font-size: 12px;
-  line-height: 15px;
-  letter-spacing: 0.3px;
-  font-weight: 600;
-  color: #3e4147;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.3px;
+    font-weight: 600;
+    color: #3e4147;
 }
 
 .header-dropdown {
-  font-size: 12px;
-  font-weight: 600;
+    font-size: 12px;
+    font-weight: 600;
 }
 
 .header-sign-button {
-  box-sizing: border-box !important;
-  height: 30px !important;
-  width: 128px !important;
-  border: 1px solid #fff !important;
-  font-size: 12px !important;
-  font-weight: 600 !important;
-  letter-spacing: 0.3px !important;
-  line-height: 15px !important;
+    box-sizing: border-box !important;
+    height: 30px !important;
+    width: 128px !important;
+    border: 1px solid #fff !important;
+    font-size: 12px !important;
+    font-weight: 600 !important;
+    letter-spacing: 0.3px !important;
+    line-height: 15px !important;
 }
 
 .header-sign-button:hover {
-  background-color: red;
-  transform: scale(1.2);
+    background-color: red;
+    transform: scale(1.2);
 }
+
 
 /* .header-sign-button:hover {
     transform: scale();
 } */
 
 .small-rect {
-  width: 7px;
-  height: 7px;
-  background-color: rgba(255, 255, 255, 0.64);
+    width: 7px;
+    height: 7px;
+    background-color: rgba(255, 255, 255, 0.64);
 }
 
 .big-rect {
-  width: 20px;
-  height: 7px;
-  background-color: rgba(255, 255, 255, 0.64);
+    width: 20px;
+    height: 7px;
+    background-color: rgba(255, 255, 255, 0.64);
 }
 
 .dase-line {
-  width: 70px;
-  height: 3.2px;
-  background-color: #3771bb;
+    width: 70px;
+    height: 3.2px;
+    background-color: #3771bb;
 }
 
 .center-text-muted {
-  font-size: 18px;
-  line-height: 23px;
-  letter-spacing: 0.48px;
-  color: #1a1a1a;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: 0.48px;
+    color: #1a1a1a;
 }
 
 .box-container {
-  font-weight: 600;
-  padding-left: 15px;
+    font-weight: 600;
+    padding-left: 15px;
 }
 
 .header-small-word {
-  position: absolute;
-  bottom: 0px;
-  right: 10px;
-  top: 24px;
-  font-size: 12px;
-  color: rgba(0, 0, 0, 0.419);
-  letter-spacing: 1.09px;
+    position: absolute;
+    bottom: 0px;
+    right: 10px;
+    top: 24px;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.419);
+    letter-spacing: 1.09px;
 }
 
 .banner-nav {
-  border-bottom: 0.5px solid aliceblue;
+    border-bottom: 0.5px solid aliceblue;
 }
 
 .btn {
-  border-radius: 0px !important;
+    border-radius: 0px !important;
 }
 
 .navbar-toggler-icon {
-  color: white;
+    color: white;
 }
 
 .menuitem {
-  font-family: "Inter", sans-serif;
+    font-family: "Inter", sans-serif;
 }
 
 .hero-title {
-  font-size: 45px;
-  font-weight: 100;
+    font-size: 45px;
+    font-weight: 100;
 }
 
 .hero-caption {
-  font-size: 18px;
-  line-height: 32px;
-  margin-bottom: 63px;
+    font-size: 18px;
+    line-height: 32px;
+    margin-bottom: 63px;
 }
 
 .top-header {
-  padding-left: 1rem;
-  padding-right: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 .logo-division {
-  display: flex;
+    display: flex;
 }
 
 .banner {
-  min-height: 480px;
-  background: rgb(7, 52, 100);
-  background: -moz-linear-gradient(
-    180deg,
-    rgba(7, 52, 100, 1) 0%,
-    rgba(23, 83, 159, 1) 94%
-  );
-  background: -webkit-linear-gradient(
-    180deg,
-    rgba(7, 52, 100, 1) 0%,
-    rgba(23, 83, 159, 1) 94%
-  );
-  background: linear-gradient(
-    180deg,
-    rgba(7, 52, 100, 1) 0%,
-    rgba(23, 83, 159, 1) 94%
-  );
-  filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#073464", endColorstr="#17539f", GradientType=1);
+    min-height: 480px;
+    background: rgb(7, 52, 100);
+    background: -moz-linear-gradient( 180deg, rgba(7, 52, 100, 1) 0%, rgba(23, 83, 159, 1) 94%);
+    background: -webkit-linear-gradient( 180deg, rgba(7, 52, 100, 1) 0%, rgba(23, 83, 159, 1) 94%);
+    background: linear-gradient( 180deg, rgba(7, 52, 100, 1) 0%, rgba(23, 83, 159, 1) 94%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#073464", endColorstr="#17539f", GradientType=1);
 }
 
 .banner2 {
-  min-height: 599px;
-  background-color: #c8c8c8;
-  background-image: url("dist/img/patternimage.jpg");
+    min-height: 599px;
+    background-color: #c8c8c8;
+    background-image: url("dist/img/patternimage.jpg");
 }
 
 .rectangle {
-  background-color: #c8c8c8;
-  min-height: 373px;
-  width: 100%;
-  opacity: 0.3;
+    background-color: #c8c8c8;
+    min-height: 373px;
+    width: 100%;
+    opacity: 0.3;
 }
 
 .header {
-  padding: 0.5rem;
+    padding: 0.5rem;
 }
 
 .card {
-  background-color: #fff;
-  margin: 2px;
-  height: 109.76px;
-  width: 358.21px;
-  background-color: #fff;
+    background-color: #fff;
+    margin: 2px;
+    height: 109.76px;
+    width: 358.21px;
+    background-color: #fff;
 }
 
 .vertical {
-  box-sizing: border-box;
-  height: 35px;
-  width: 1px;
-  opacity: 0.42;
-  border: 1px solid #fff;
+    box-sizing: border-box;
+    height: 35px;
+    width: 1px;
+    opacity: 0.42;
+    border: 1px solid #fff;
 }
 
 .longtext {
-  color: #1a1a1a !important;
-  font-family: "Source Sans Pro" !important;
-  font-size: 31.99px !important;
-  line-height: 40px !important;
-  color: #1a1a1a !important;
+    color: #1a1a1a !important;
+    font-family: "Source Sans Pro" !important;
+    font-size: 31.99px !important;
+    line-height: 40px !important;
+    color: #1a1a1a !important;
 }
+
 .owner-title {
-  top: -200px;
-  left: 30%;
-  position: absolute;
-  font-weight: 300;
-  font-size: 56px;
-  letter-spacing: 0.25px;
-  color: white;
-  padding: 5px;
-}
-.owner-banner {
-  position: relative;
-  height: 450px;
-  background-color: black;
-  background-position: top;
-  background-image: url("dist/img/owners-center-banner.webp");
-  width: 100%;
-  background-repeat: no-repeat;
-  background-size: 100% 520px;
-  font-family: "GothamMedium";
-  margin-bottom: 100px;
-}
-.owner-banner a svg {
-  color: #fff;
-  width: 80px;
-  height: 80px;
-}
-.owner-banner a {
-  text-decoration: none;
-  color: white;
-  font-weight: 900;
-}
-.owner-banner a:hover {
-  color: white;
-  opacity: 0.5;
-}
-.icons {
-  fill: #fff;
-  position: relative;
-  right: 1200px;
-  padding-top: 20%;
-}
-@media only screen and (max-width: 767px) {
-  .rectangle {
-    background-color: #c8c8c8;
-    min-height: 689px;
-    width: 100%;
-    opacity: 0.3;
-  }
-  .hero-title {
-    font-size: 25px;
-    font-weight: 100;
-  }
-  .hero-caption {
-    font-size: 12px;
-  }
-  .owner-title {
-    position: relative;
-    left: 2%;
-    font-weight: 900;
-    font-size: 36px;
+    top: -200px;
+    left: 35%;
+    position: absolute;
+    font-weight: 300;
+    font-size: 56px;
     letter-spacing: 0.25px;
     color: white;
     padding: 5px;
-  }
+}
 
-  .owner-banner {
-    height: auto;
-
+.owner-banner {
+    position: relative;
+    height: 450px;
     background-color: black;
     background-position: top;
     background-image: url("dist/img/owners-center-banner.webp");
+    width: 100%;
     background-repeat: no-repeat;
-    background-size: 100% 120px;
+    background-size: 100% 520px;
     font-family: "GothamMedium";
-    overflow: hidden;
-  }
-  .owner-banner a {
-    letter-spacing: 0.25px;
-    width: 50%;
-    border: 1px solid white;
-  }
-  .icons {
+    margin-bottom: 2%;
+}
+
+.owner-banner a svg {
+    color: #fff;
+    width: 80px;
+    height: 80px;
+}
+
+.owner-banner a {
+    text-decoration: none;
+    color: white;
+    font-weight: 900;
+}
+
+.owner-banner a:hover {
+    color: white;
+    opacity: 0.5;
+}
+
+.icons {
     fill: #fff;
-    padding-top: 10%;
-    padding: 5px;
-  }
+    position: relative;
+    right: 1200px;
+    padding-top: 15%;
+}
+
+@media only screen and (max-width: 767px) {
+    .rectangle {
+        background-color: #c8c8c8;
+        min-height: 689px;
+        width: 100%;
+        opacity: 0.3;
+    }
+    .hero-title {
+        font-size: 25px;
+        font-weight: 100;
+    }
+    .hero-caption {
+        font-size: 12px;
+    }
+    .owner-title {
+        position: relative;
+        left: 2%;
+        font-weight: 900;
+        font-size: 36px;
+        letter-spacing: 0.25px;
+        color: white;
+        padding: 5px;
+    }
+    .owner-banner {
+        height: auto;
+        background-color: black;
+        background-position: top;
+        background-image: url("dist/img/owners-center-banner.webp");
+        background-repeat: no-repeat;
+        background-size: 100% 120px;
+        font-family: "GothamMedium";
+        overflow: hidden;
+    }
+    .owner-banner a {
+        letter-spacing: 0.25px;
+        width: 50%;
+        border: 1px solid white;
+    }
+    .icons {
+        fill: #fff;
+        padding-top: 10%;
+        padding: 5px;
+    }
 }
 
 @media only screen and (min-width: 768px) {
-  .rectangle {
-    background-color: #c8c8c8;
-    min-height: 500px;
-    width: 100%;
-    opacity: 0.3;
-  }
-  .hero-title {
-    font-size: 23px;
-    font-weight: 100;
-  }
-  .hero-caption {
-    font-size: 13px;
-  }
+    .rectangle {
+        background-color: #c8c8c8;
+        min-height: 500px;
+        width: 100%;
+        opacity: 0.3;
+    }
+    .hero-title {
+        font-size: 23px;
+        font-weight: 100;
+    }
+    .hero-caption {
+        font-size: 13px;
+    }
 }
 
 @media only screen and (min-width: 1147px) {
-  /* For desktop: */
-  .rectangle {
-    background-color: #c8c8c8;
-    min-height: 375px;
-    width: 100%;
-    opacity: 0.3;
-  }
-  .hero-title {
-    font-size: 45px;
-    font-weight: 100;
-  }
-  .hero-caption {
-    font-size: 18px;
-  }
+    /* For desktop: */
+    .rectangle {
+        background-color: #c8c8c8;
+        min-height: 375px;
+        width: 100%;
+        opacity: 0.3;
+    }
+    .hero-title {
+        font-size: 45px;
+        font-weight: 100;
+    }
+    .hero-caption {
+        font-size: 18px;
+    }
 }

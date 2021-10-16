@@ -1,11 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap");
-@font-face {
-  font-family: "GothamMedium";
-  src: url("dist/fonts/Gotham-Font/GothamLight.ttf");
-}
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Reem+Kufi&display=swap");
+
 
 body {
+  width: 100%;
   margin: 0px;
   padding: 0px;
   font-family: "Source Sans Pro", sans-serif;
@@ -69,11 +67,6 @@ body {
   color: #1a1a1a;
 }
 
-.box-container {
-  font-weight: 600;
-  padding-left: 15px;
-}
-
 .header-small-word {
   position: absolute;
   bottom: 0px;
@@ -95,58 +88,95 @@ body {
 .navbar-toggler-icon {
   color: white;
 }
-
+.navbar {
+  background-color: #000000;
+}
+.header-social-links{
+  width: 20px;
+  height: 20px;
+}
+.block-line {
+  height: 12px;
+  background-color: #ddc07f;
+}
 .menuitem {
   font-family: "Inter", sans-serif;
 }
 
 .hero-title {
-  font-size: 45px;
-  font-weight: 100;
+  font-family: Reem Kufi;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 57px;
+  letter-spacing: 0em;
+  text-align: left;
 }
-
+.hero-title2 {
+  font-family: Josefin Sans;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fff;
+}
 .hero-caption {
-  font-size: 18px;
-  line-height: 32px;
-  margin-bottom: 63px;
+  font-family: Josefin Sans;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
 }
 
 .top-header {
   padding-left: 1rem;
   padding-right: 1rem;
 }
-
+.logo {
+  width: 97px;
+  height: 97px;
+}
 .logo-division {
   display: flex;
+}
+.logo-link {
+  font-family: Josefin Sans;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 11px;
+  letter-spacing: 0em;
+  text-align: left;
 }
 
 .banner {
   min-height: 480px;
-  background: rgb(7, 52, 100);
-  background: -moz-linear-gradient(
-    180deg,
-    rgba(7, 52, 100, 1) 0%,
-    rgba(23, 83, 159, 1) 94%
-  );
-  background: -webkit-linear-gradient(
-    180deg,
-    rgba(7, 52, 100, 1) 0%,
-    rgba(23, 83, 159, 1) 94%
-  );
-  background: linear-gradient(
-    180deg,
-    rgba(7, 52, 100, 1) 0%,
-    rgba(23, 83, 159, 1) 94%
-  );
-  filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#073464", endColorstr="#17539f", GradientType=1);
+  background-color: #000000;
 }
 
 .banner2 {
-  min-height: 599px;
+  position: relative;
+  min-width: 100%;
   background-color: #c8c8c8;
-  background-image: url("dist/img/patternimage.jpg");
+  z-index: 2;
 }
-
+.banner2::before {
+  content: "";
+  background-image: url("dist/img/here\ to\ support2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.4;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
 .rectangle {
   background-color: #c8c8c8;
   min-height: 373px;
@@ -159,69 +189,97 @@ body {
 }
 
 .card {
-  background-color: #fff;
-  margin: 2px;
-  height: 109.76px;
-  width: 358.21px;
-  background-color: #fff;
+  height: 59px;
+  width: 236px;
+  left: 0px;
+  top: 0px;
+  border-radius: 0px;
+  padding: 7px, 20px, 7px, 20px;
+  background-color: #ddc07f !important;
 }
-
-.vertical {
-  box-sizing: border-box;
-  height: 35px;
-  width: 1px;
-  opacity: 0.42;
-  border: 1px solid #fff;
+.box-container {
+  font-family: Josefin Sans;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: left;
 }
-
+.long-center-text{
+  max-width: 1087px;
+}
 .longtext {
-  color: #1a1a1a !important;
-  font-family: "Source Sans Pro" !important;
-  font-size: 31.99px !important;
-  line-height: 40px !important;
-  color: #1a1a1a !important;
+  font-family: Josefin Sans;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 100;
+  line-height: 40px;
+  letter-spacing: 0em;
+  text-align: left;
+  
 }
-.owner-title {
-  top: -200px;
-  left: 30%;
-  position: absolute;
-  font-weight: 300;
-  font-size: 56px;
-  letter-spacing: 0.25px;
-  color: white;
-  padding: 5px;
+.longtext2 {
+  font-family: Josefin Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
 }
-.owner-banner {
-  position: relative;
-  height: 450px;
-  background-color: black;
-  background-position: top;
-  background-image: url("dist/img/owners-center-banner.webp");
-  width: 100%;
-  background-repeat: no-repeat;
-  background-size: 100% 520px;
-  font-family: "GothamMedium";
-  margin-bottom: 100px;
+.footer-banner {
+  background-image: url("dist/img/long-footer-img.png");
+  height: 716px;
+  min-width: 100%;
 }
-.owner-banner a svg {
-  color: #fff;
-  width: 80px;
-  height: 80px;
-}
-.owner-banner a {
+.footer-banner a{
   text-decoration: none;
-  color: white;
-  font-weight: 900;
+  color:  #FFFFFF;
+  ;
 }
-.owner-banner a:hover {
-  color: white;
-  opacity: 0.5;
+.footer-banner a:hover{
+  text-decoration: none;
+  color: aliceblue;
 }
-.icons {
-  fill: #fff;
-  position: relative;
-  right: 1200px;
-  padding-top: 20%;
+.monagram-text{
+  margin-top:44px;
+  height: 68px;
+width: 552px;
+left: 437px;
+top: 906px;
+border-radius: 0px;
+margin-bottom: 28px;
+
+}
+.footer-nav {
+  margin-top: 43px;
+  margin-bottom: 29px;
+  }
+.footer-nav div{
+margin-left: 20px;
+margin-right: 20px;
+
+}
+.footer-nav img{
+  display: block;
+  text-align: center;
+  width: 70px;
+  height: 70px;
+  margin-bottom: 19px;
+
+}
+.contact-text{
+  margin-top: 43px;
+  font-family: Reem Kufi;
+font-size: 55px;
+font-style: normal;
+font-weight: 400;
+line-height: 83px;
+letter-spacing: 0em;
+text-align: left;
+color: #DDC07F;
+
 }
 @media only screen and (max-width: 767px) {
   .rectangle {

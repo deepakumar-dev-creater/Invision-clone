@@ -1,6 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;wght@700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600;700&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Reem+Kufi&display=swap");
-
 
 body {
   width: 100%;
@@ -91,16 +90,13 @@ body {
 .navbar {
   background-color: #000000;
 }
-.header-social-links{
+.header-social-links {
   width: 20px;
   height: 20px;
 }
 .block-line {
   height: 12px;
   background-color: #ddc07f;
-}
-.menuitem {
-  font-family: "Inter", sans-serif;
 }
 
 .hero-title {
@@ -177,12 +173,6 @@ body {
   position: absolute;
   z-index: -1;
 }
-.rectangle {
-  background-color: #c8c8c8;
-  min-height: 373px;
-  width: 100%;
-  opacity: 0.3;
-}
 
 .header {
   padding: 0.5rem;
@@ -206,18 +196,17 @@ body {
   letter-spacing: 0em;
   text-align: left;
 }
-.long-center-text{
+.long-center-text {
   max-width: 1087px;
 }
 .longtext {
   font-family: Josefin Sans;
   font-size: 40px;
   font-style: normal;
-  font-weight: 100;
+  font-weight: 400;
   line-height: 40px;
   letter-spacing: 0em;
   text-align: left;
-  
 }
 .longtext2 {
   font-family: Josefin Sans;
@@ -233,53 +222,50 @@ body {
   height: 716px;
   min-width: 100%;
 }
-.footer-banner a{
+.footer-banner a {
   text-decoration: none;
-  color:  #FFFFFF;
-  ;
+  color: #ffffff;
 }
-.footer-banner a:hover{
+.footer-banner a:hover {
   text-decoration: none;
   color: aliceblue;
 }
-.monagram-text{
-  margin-top:44px;
+.monagram-text {
+  margin-top: 44px;
+  width: 552px;
   height: 68px;
-width: 552px;
-left: 437px;
-top: 906px;
-border-radius: 0px;
-margin-bottom: 28px;
-
+  left: 437px;
+  top: 906px;
+  border-radius: 0px;
+  margin-bottom: 28px;
 }
 .footer-nav {
-  margin-top: 43px;
-  margin-bottom: 29px;
-  }
-.footer-nav div{
-margin-left: 20px;
-margin-right: 20px;
-
+margin-top: 43px;
+margin-bottom: 29px;}
+.footer-nav .footer-links div {
+  margin-left: 20px;
+  margin-right: 20px;
 }
-.footer-nav img{
+.footer-nav img {
   display: block;
   text-align: center;
   width: 70px;
   height: 70px;
   margin-bottom: 19px;
-
 }
-.contact-text{
+.footer-nav .footer-links a:hover {
+ opacity: 0.5;
+}
+.contact-text {
   margin-top: 43px;
   font-family: Reem Kufi;
-font-size: 55px;
-font-style: normal;
-font-weight: 400;
-line-height: 83px;
-letter-spacing: 0em;
-text-align: left;
-color: #DDC07F;
-
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 83px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ddc07f;
 }
 @media only screen and (max-width: 767px) {
   .rectangle {
@@ -295,36 +281,19 @@ color: #DDC07F;
   .hero-caption {
     font-size: 12px;
   }
-  .owner-title {
-    position: relative;
-    left: 2%;
-    font-weight: 900;
-    font-size: 36px;
-    letter-spacing: 0.25px;
-    color: white;
-    padding: 5px;
-  }
 
-  .owner-banner {
-    height: auto;
-
-    background-color: black;
-    background-position: top;
-    background-image: url("dist/img/owners-center-banner.webp");
-    background-repeat: no-repeat;
-    background-size: 100% 120px;
-    font-family: "GothamMedium";
-    overflow: hidden;
+  .footer-nav .footer-links div {
+    margin-left: 0px;
+    margin-right: 0px;
   }
-  .owner-banner a {
-    letter-spacing: 0.25px;
+  .footer-nav .footer-links div {
     width: 50%;
+    margin: 0px;
     border: 1px solid white;
   }
-  .icons {
-    fill: #fff;
-    padding-top: 10%;
-    padding: 5px;
+  .footer-nav {
+    min-width:100% ;
+    margin: 0px;
   }
 }
 
